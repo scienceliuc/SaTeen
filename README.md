@@ -4,8 +4,6 @@ This repository contains the official code for the paper **SaTeen: Learning Stru
 
 SaTeen is a test-time adaptation method designed for distribution shifts that evolve over time. This codebase focuses on evaluation under ImageNet-C corruptions with both standard test-time adaptation and continual / online adaptation settings.
 
-![SaTeen overview](figures/overview.png)
-
 ## Highlights
 
 - Supports the following adaptation methods in one codebase:
