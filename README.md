@@ -146,13 +146,11 @@ python main_c.py \
 python main.py   --data_corruption /path/to/imagenet-c --exp_type normal       --method sateen --model resnet50_gn_timm
 python main.py   --data_corruption /path/to/imagenet-c --exp_type mix_shifts   --method sateen --model resnet50_gn_timm
 python main.py   --data_corruption /path/to/imagenet-c --exp_type label_shifts --method sateen --model resnet50_gn_timm
-python main.py   --data_corruption /path/to/imagenet-c --exp_type bs1          --method sateen --model resnet50_gn_timm
 
 # ViT-B/16
 python main.py   --data_corruption /path/to/imagenet-c --exp_type normal       --method sateen --model vitbase_timm
 python main.py   --data_corruption /path/to/imagenet-c --exp_type mix_shifts   --method sateen --model vitbase_timm
 python main.py   --data_corruption /path/to/imagenet-c --exp_type label_shifts --method sateen --model vitbase_timm
-python main.py   --data_corruption /path/to/imagenet-c --exp_type bs1          --method sateen --model vitbase_timm
 
 # Continual setting
 python main_c.py --data_corruption /path/to/imagenet-c --exp_type normal       --method sateen --model resnet50_gn_timm
